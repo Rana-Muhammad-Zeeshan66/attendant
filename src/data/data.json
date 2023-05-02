@@ -1,0 +1,164 @@
+{
+  "allUsers": [
+    {
+      "userId": "001",
+      "firstName": "Prabodhan",
+      "lastName": "Fitzgerald",
+      "userName": "Prabodhan Fitzgerald",
+      "position": "Frontend Engineer",
+      "email": "prabodhan@gmail.com",
+      "totalHours": "160",
+      "dailyAverageHours": "8.0",
+      "pastAttendance": [
+        {
+          "Date": "03/03/2022",
+          "status": "Present"
+        },
+        {
+          "Date": "02/03/2022",
+          "status": "Present"
+        },
+        {
+          "Date": "01/03/2022",
+          "status": "Present"
+        },
+        {
+          "Date": "29/02/2022",
+          "status": "Leave"
+        },
+        {
+          "Date": "28/03/2022",
+          "status": "Absent"
+        }
+      ]
+    },
+    {
+      "userId": "002",
+      "firstName": "Hiro",
+      "lastName": "Joyce",
+      "userName": "Hiro Joyce",
+      "position": "Frontend Engineer",
+      "email": "hiro@gmail.com",
+      "totalHours": "150",
+      "dailyAverageHours": "7.0",
+      "pastAttendance": [
+        {
+          "Date": "03/03/2022",
+          "status": "Leave"
+        },
+        {
+          "Date": "02/03/2022",
+          "status": "Present"
+        },
+        {
+          "Date": "01/03/2022",
+          "status": "Present"
+        },
+        {
+          "Date": "29/02/2022",
+          "status": "Leave"
+        },
+        {
+          "Date": "28/03/2022",
+          "status": "Absent"
+        }
+      ]
+    },
+    {
+      "userId": "003",
+      "firstName": "Lloyd",
+      "lastName": "Jefferson",
+      "userName": "Lloyd Jefferson",
+      "position": "Backend Engineer",
+      "email": "lloyd@gmail.com",
+      "totalHours": "150",
+      "dailyAverageHours": "6.80",
+      "pastAttendance": [
+        {
+          "Date": "03/03/2022",
+          "status": "Leave"
+        },
+        {
+          "Date": "02/03/2022",
+          "status": "Leave"
+        },
+        {
+          "Date": "01/03/2022",
+          "status": "Leave"
+        },
+        {
+          "Date": "29/02/2022",
+          "status": "Leave"
+        },
+        {
+          "Date": "28/03/2022",
+          "status": "Leave"
+        }
+      ]
+    },
+    {
+      "userId": "004",
+      "firstName": "Ceiran",
+      "lastName": "Mayo",
+      "userName": "Ceiran Mayo",
+      "position": "HR Manager",
+      "email": "ceiran@gmail.com",
+      "totalHours": "150",
+      "dailyAverageHours": "7.6",
+      "pastAttendance": [
+        {
+          "Date": "03/03/2022",
+          "status": "Present"
+        },
+        {
+          "Date": "02/03/2022",
+          "status": "Present"
+        },
+        {
+          "Date": "01/03/2022",
+          "status": "Present"
+        },
+        {
+          "Date": "29/02/2022",
+          "status": "Present"
+        },
+        {
+          "Date": "28/03/2022",
+          "status": "Present"
+        }
+      ]
+    },
+    {
+      "userId": "005",
+      "firstName": "Thumbiko",
+      "lastName": "",
+      "userName": "Thumbiko",
+      "position": "DevOps",
+      "email": "james@gmail.com",
+      "totalHours": "152",
+      "dailyAverageHours": "7.9",
+      "pastAttendance": [
+        {
+          "Date": "03/03/2022",
+          "status": "Absent"
+        },
+        {
+          "Date": "02/03/2022",
+          "status": "Absent"
+        },
+        {
+          "Date": "01/03/2022",
+          "status": "Absent"
+        },
+        {
+          "Date": "29/02/2022",
+          "status": "Absent"
+        },
+        {
+          "Date": "28/03/2022",
+          "status": "Absent"
+        }
+      ]
+    }
+  ]
+}
