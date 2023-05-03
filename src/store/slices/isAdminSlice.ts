@@ -22,10 +22,14 @@ const isAdmin = createSlice({
       state.value.isAdmin = action.payload;
       state.value.isLogin = true;
     },
+    logout: (state, action: PayloadAction<boolean>) => {
+      state.value.isAdmin = action.payload;
+      state.value.isLogin = action.payload;
+    },
   },
 });
 
-export const { setIsAdmin } = isAdmin.actions;
+export const { setIsAdmin, logout } = isAdmin.actions;
 
 const isAdminReducer = isAdmin.reducer;
 export default isAdminReducer;

@@ -1,4 +1,3 @@
-import { useLocation } from 'react-router-dom';
 import AdminPagesHeading from '../components/headings/AdminPagesHeading';
 import SharedPageHeader from '../components/shared/SharedPageHeader';
 import MainContainer from '../styledComponents/mainContainer/MainContainer';
@@ -10,10 +9,9 @@ import { Button } from '@mui/material';
 import UserAddEditModal from '../components/modals/UserAddEditModal';
 import { useState } from 'react';
 
-import { useAppSelector, useAppDispatch } from '../store/rtkHooks';
+import { useAppSelector } from '../store/rtkHooks';
 
 const AdminDashboardUsersPage = (): JSX.Element => {
-  const params = useLocation();
   const [openModal, setOpenModal] = useState(false);
 
   const allUsersDataRedux = useAppSelector((state) => state.allUsers.value);

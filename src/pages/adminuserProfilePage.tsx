@@ -33,7 +33,7 @@ const AdminuserProfilePage = (): JSX.Element => {
     if (result) {
       setUserData(result);
     }
-  }, [params.id]);
+  }, [params.id, allUsersDataRedux]);
 
   return (
     <MainContainer>
